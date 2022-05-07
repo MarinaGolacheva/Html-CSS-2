@@ -1,0 +1,572 @@
+html{
+    box-sizing: border-box;
+}
+
+body {
+width: 1400px;
+padding: 0;
+margin: 0;
+}
+
+header {
+color: white;
+background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-left: 110px;
+    margin-right: 110px;
+   }
+
+.logo_container {
+align-items: center;
+height: 70px;
+display: flex;
+margin: 0;
+}
+
+nav.navigation {
+    align-items: center;
+    font-size: 15px;
+}
+
+.logotype2 {
+width: 129px;
+height: 50px;
+padding-bottom: 32px;
+}
+
+.registration {
+    background-image: url("../images/background.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 101px;
+    padding-top: 109px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.info {
+    margin-left: 110px;
+    width: 544px;
+    display: flex;
+    flex-direction: column;
+}
+.form {
+    color: black;
+    width: 370px;
+    height: 370px;
+    border-radius: 8px;
+    background-color: white;
+    margin-right: 110px;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.forminformation {
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    
+    border: none;
+       border-bottom: 1px solid #bdbdbd;
+    margin-top: 31.81px;
+    font-family: OpenSans, serif;
+    align-items: center;
+    }
+    
+.forminformationtext {
+    height: 57px;
+    
+    font-family: OpenSans, serif;
+    color: #bdbdbd;
+    
+    width: 252px;
+    font-size: 14px;
+    padding-left: 0;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.buttontext{
+    width: 100%;
+    margin-top: 14.6%;
+}
+
+.formbutton {
+    background-color:#EC7979;
+    color: white;
+    width: 100%;
+    height: 53px;
+    border: none;
+    margin-top: 61px;
+    margin: 0;
+    border-radius: 7px;
+}
+
+.socialblock {
+    color: #86878B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8EFEF;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.socialtitle{
+    font-family: OpenSans, serif;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    padding-top: 14px;
+    margin-bottom: 14px;
+    line-height: 27px;
+}
+ .socialtitleafter{
+    padding-bottom: 17px;
+    font-family: OpenSans, serif;
+    font-size: 14px;
+    color: #86878B;
+    max-width: 365px;
+ }
+.socialicons {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page2 {
+    display: flex;
+    margin-top: 126px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.containerbox{
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button {
+    width: 112px;
+    height: 110px; 
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    
+}
+
+.button:not(:first-child) {
+    background-color: black;
+}
+
+.downloadbutton{
+    display: flex;
+   }
+
+   .buttoninfoaboutmain{
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+       
+   }
+.downloadbutton1{
+    background-color: #EC7979;
+    color: white;
+    width: 135px;
+    height: 42px;
+    border: none;
+}
+.buttoninfo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 118px;
+    padding-right: 50px;
+   }
+
+   .buttoninfoabout{
+    
+    text-transform: uppercase;
+     margin-top: 0;
+   font-size: 20px;)
+   }
+
+   .buttoninfoabout:not(:first-child) {
+    text-transform: uppercase;
+    color: #86878B;
+    font-family: Open Sans;
+    margin-top: 0;
+    font-size: 14px;
+   }
+
+.town {
+    display: flex;
+    align-items: flex-start;
+}
+
+.title {
+    text-align: center;
+    font-family: Raleway, serif; 
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+}  
+
+.title1 {
+    padding-top: 47px;
+    text-align: center;
+    font-family: 'Cormorant SC', serif; 
+}
+
+.title2 {
+    border-color: #E72424;
+    width: 64px;
+}
+
+.title3 {
+    text-align: center;
+    color: rgb(249, 248, 248);
+    font-size: 14px;
+}
+
+.why {
+    margin-left: 110px;
+    margin-right: 110px;
+    text-align: center;
+}
+
+.Icons {
+    display: flex;
+    justify-content: space-around;
+    }
+
+.fa-lightbulb,
+.fa-keyboard,
+.fa-bolt
+ {
+    color:orange;
+    font-size: 40px;
+    border-radius: 50%;
+    border: 1px solid orange;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .aboutinfo {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.about {
+    font-size: 20px;
+    width: 400px;
+} 
+
+.Lorem {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 150px;
+    width: 400px;
+    padding-right: 23px;
+    line-height: 19px;
+   }
+
+   .lorembox{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   }
+
+
+.get{
+    color: white;
+    background:#EC7979 ;
+}
+
+.Download {
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    width: 135px;
+    height:42px
+}
+  
+   .page3title{
+       background-color: #F5F5F5;
+   }
+
+   .page4{
+    background-color: #F5F5F5;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 60px;
+   }
+
+   .pricing-wrapper__item{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-block-start: 0;
+       width: 340px;
+       padding-top: 62px;
+   }
+   
+   .price{
+       display: flex;
+       justify-content: space-between
+          }
+
+    .pricing-wrapper__item:nth-child(2){
+        padding-top: 47px;
+    }
+
+   .priceprice{
+       font-size: 35px;
+       font-style: bold;
+       font-family: Raleway, serif;
+       color: white;
+       background-color: #333333;
+       width: 340px;
+       height: 50px;
+       text-align: center;
+       align-items: center;
+       display: flex;
+       justify-content: center;
+       margin: 0;
+    }
+
+   .pricebasic{
+       font-size: 20px;
+       font-style: bold;
+       font-family: Open Sans, serif;
+       font-style: bold;
+       color: white;
+       background-color: #333333;
+       width: 340px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+   }
+
+   .pricefree{
+    color: white;
+    background-color: #333333;
+    width: 340px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+   }
+
+   .pricespace{
+       color: #86878B;
+       background: white;
+    width: 340px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: OpenSans, serif;
+    font-size: 14px;
+    margin: 2px;
+   }
+
+   .customersay{
+       padding-top: 67px;
+       display: flex;
+       margin-left: 153px;
+       margin-right: 153px;
+       justify-content: space-between;
+       margin-bottom: 119px;
+   }
+   .custombox{
+       display: flex;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       width: 298px;
+   }
+   .customer{
+       display: flex;
+       background-color: #E2E2E2;
+       color: #86878B;
+       font-family: OpenSans, serif;
+       font-size: 14px;
+       border-radius: 7px;
+       height: 110px;
+       align-items: center;
+       padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+   }
+
+   .jeremyname{
+       display: flex;
+       align-items: center;
+       font-size: 20px;
+       font-family: OpenSans, serif;
+       font-weight: bold;
+       width: 270px;
+    justify-content: space-around;
+    text-align: end;
+}
+
+.manager{
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+    width: 97px;
+    text-align: end;
+    padding-top: 12px;
+}
+
+.titleend{
+    text-align: center;
+    font-family: Raleway, serif;
+    background-image: url(../images/end.png);
+height: 326px;
+color: #FFFFFF;
+
+}
+
+.Download1{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    width: 135px;
+    height:42px;
+    margin-top: 57px;
+}
+
+.formaright{
+    display: flex;
+    width: 40%;
+    border: none;
+    justify-content: flex-end;
+    height: 174.4px;
+}
+
+
+
+.formatext{
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 91px;
+    }
+
+.forminformation2 {
+    line-height: 19px;
+    color: #bdbdbd;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+   
+    border: none;
+   
+    font-family: OpenSans, serif;
+    align-items: center;
+    gap: 10px;
+}
+
+.formatextleft {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+}
+    
+.formarighttext1{
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    width: 100%;
+    height: 114px;
+    margin-right: 110px;
+    height: 174.4px;
+}
+
+.download2{
+    margin-left: 617px;
+    font-size: 15px;
+    font-family: OpenSans, sans-serif;
+    display: flex;
+    background-color: #EC7979;
+    color: white;
+    width: 135px;
+    height: 42px;
+    margin-top: 68.8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.formaabout{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.footerinfo{
+    background-color: black;
+    display: flex;
+    text-align: center;
+    margin-top: 44px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.footerinfoicons{
+    display: flex;
+    width: 317px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+ .customersay, .price, .formatext, .container {
+    flex-direction: column;
+    align-items: center;
+ }  
+}
